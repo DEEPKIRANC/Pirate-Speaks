@@ -1,7 +1,7 @@
 var buttonTranslate=document.querySelector("#btn-translate");
 var txtinput=document.querySelector("#txtinput");
 var output=document.querySelector("#outputdiv");
-var url="https://api.funtranslations.com/translate/minion.json";
+var url="https://api.funtranslations.com/translate/pirate.json";
 const clickhandler=()=>
 {
     var finalURL=constructURL(txtinput.value);

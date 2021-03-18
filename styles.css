@@ -90,15 +90,18 @@ button
     width:65%;
     padding:1rem;
     font-size:1.5rem;
+    margin-bottom:1rem;
 }
 
 .footer
 {
     background-color: white;
     border-bottom-right-radius: 20px;
-    padding:1rem;
+    padding:0.5rem;
     margin-top:2rem;
-    text-align:center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-family: var(--primary-font);
     color:black;
     font-weight: bolder;
@@ -106,4 +109,11 @@ button
 .footer img
 {
     max-width: 200px;
+}
+.footer div
+{
+    border:2px dotted black;
+    padding:1rem;
+    border-radius: 10px;
+    max-width:70%;
 }
