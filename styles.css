@@ -1,0 +1,85 @@
+body
+{
+    margin:0;
+    font-family: var(--primary-font);
+    background-color: whitesmoke;
+}
+:root
+{
+    --primary-font:'Montserrat', sans-serif;
+    --secondary-font:'Redressed';
+}
+.navbar
+{
+    padding:1rem;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    text-align: center;
+}
+.navbar h1
+{
+    color:whitesmoke;
+    font-family: var(--secondary-font);
+    position:relative;
+    font-size: 2rem;
+}
+.heading
+{
+    color:white;
+  
+    
+}
+.main-content
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea
+{
+    max-width:80%;
+    display: block;
+    min-height: 20vh;
+    padding:1rem;
+    margin-top:2rem;
+    border:2px solid black;
+    font-size: large;
+    font-family: var(--primary-font);
+    
+}
+button
+{
+    padding:1rem 2rem;
+    border-radius: 10px;
+    margin-top:1rem;
+    background-color: black;
+    color: #f1ee23;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+.outputdiv
+{
+    max-width:65%;
+    min-height:25vh;
+    border:2px solid black;
+    margin-top:1rem;
+    background-color: white;
+    font-family: var(--secondary-font);
+    color:black;
+    font-weight: bold;
+    width:65%;
+    padding:1rem;
+    font-size:1.5rem;
+}
+
+.footer
+{
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    padding:2rem;
+    margin-top:1rem;
+    text-align:center;
+    font-family: var(--primary-font);
+    color:#FCD34D;
+}
